@@ -32,8 +32,8 @@ public class Produto {
     }
 
     public int calcular(int quantidadeDeProdutos) {
-        int resultado = (int) (preco * quantidadeDeProdutos);
-        System.out.println(resultado);
-        return resultado;
+        double resultado =  preco * quantidadeDeProdutos;
+        System.out.println("Resultado do calculo do produto não perecivel: " + resultado);
+        return (int) resultado;
     }
 }

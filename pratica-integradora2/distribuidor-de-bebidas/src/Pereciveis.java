@@ -18,21 +18,23 @@ public class Pereciveis extends Produto {
     public String toString() {
         return "Pereciveis{" +
                 "diasParaVencer=" + diasParaVencer +
+                ", nome='" + nome + '\'' +
+                ", preco=" + preco +
                 '}';
     }
 
     @Override
     public int calcular(int quantidadeDeProdutos) {
-        int resultado = (int) (preco * quantidadeDeProdutos) - diasParaVencer;
-        System.out.println(resultado);
-        int precoFinal = 0;
+        double resultado = preco * quantidadeDeProdutos;
+        System.out.println("Resultado do calculo de Perecível, preço * quantidade " + resultado);
+        double precoFinal = 0;
 
         switch (diasParaVencer) {
             case 1 -> precoFinal = resultado / 4;
             case 2 -> precoFinal = resultado / 3;
             case 3 -> precoFinal = resultado / 2;
         }
-        System.out.println(precoFinal);
-        return precoFinal;
+        System.out.println("preço final, com desconto " + precoFinal);
+        return (int) precoFinal;
     }
 }
