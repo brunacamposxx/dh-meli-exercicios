@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3ef807-f9d2-4f4d-a30a-fdbd1d702bc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../aula03/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../aula03/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../aula03/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="122bc32e-8549-4ea2-a099-f6adcce819c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pratica-integradora4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Garagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Veiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,23 +27,26 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FGHTOkAU8xR44tGs7X6Be6TJoy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2FOhf6Oo86Surs5M1prhbm2DQIv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/bcamposf/Github/dh-meli-exercicios/pratica-integradora2/pratica-integradora",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,30 +54,16 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="PraticaExcecoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PraticaExcecoes" />
-      <module name="pratica-integradora" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.PraticaExcecoes" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e3ef807-f9d2-4f4d-a30a-fdbd1d702bc1" name="Changes" comment="" />
-      <created>1664111509246</created>
+      <changelist id="122bc32e-8549-4ea2-a099-f6adcce819c9" name="Changes" comment="" />
+      <created>1664369139735</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664111509246</updated>
-      <workItem from="1664111510403" duration="4314000" />
-      <workItem from="1664225388554" duration="54000" />
+      <updated>1664369139735</updated>
+      <workItem from="1664369140834" duration="8846000" />
+      <workItem from="1664474099675" duration="437000" />
     </task>
     <servers />
   </component>
