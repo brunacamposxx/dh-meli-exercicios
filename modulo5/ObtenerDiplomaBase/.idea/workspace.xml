@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7af7e961-6c92-4f53-9938-9f81c5cb1999" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/entity/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/entity/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/exception/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/repository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/repository/BlogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modulo3/blog/src/main/resources/blog.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/resources/blog.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2FxOcvivlxGekcFfH5ZOVni8CUN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/bcamposf/Github/dh-meli-exercicios/modulo5/ObtenerDiplomaBase",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7af7e961-6c92-4f53-9938-9f81c5cb1999" name="Changes" comment="" />
+      <created>1665430351502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665430351502</updated>
+      <workItem from="1665430352688" duration="180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
