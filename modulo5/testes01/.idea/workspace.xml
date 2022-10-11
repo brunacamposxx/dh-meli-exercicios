@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1cd4abf0-67f2-4e25-a5dc-6e45a6a735d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/entity/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/java/com/dh/meli/blog/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../modulo3/blog/src/main/resources/blog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dh/meli/testes01/calculadora/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dh/meli/testes01/calculadora/CalculadoraTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Fwf3EFnEUH0JUbidMzspI0ePNq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/bcamposf/Github/dh-meli-exercicios/modulo5/testes01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dh.meli.testes01.calculadora" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculadoraTest">
+    <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dh.meli.testes01.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dh.meli.testes01.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="com.dh.meli.testes01.calculadora.CalculadoraTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.testDivide_returnDouble_whenTwoPositiveNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dh.meli.testes01.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dh.meli.testes01.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="com.dh.meli.testes01.calculadora.CalculadoraTest" />
+      <option name="METHOD_NAME" value="testDivide_returnDouble_whenTwoPositiveNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.testDivide_returnZero_whenDivisorIqualsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dh.meli.testes01.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dh.meli.testes01.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="com.dh.meli.testes01.calculadora.CalculadoraTest" />
+      <option name="METHOD_NAME" value="testDivide_returnZero_whenDivisorIqualsZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.testSoma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dh.meli.testes01.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dh.meli.testes01.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="com.dh.meli.testes01.calculadora.CalculadoraTest" />
+      <option name="METHOD_NAME" value="testSoma" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.testSoma_returnDouble_whenValidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dh.meli.testes01.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dh.meli.testes01.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="com.dh.meli.testes01.calculadora.CalculadoraTest" />
+      <option name="METHOD_NAME" value="testSoma_returnDouble_whenValidInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testes01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="testes01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dh.meli.testes01.Testes01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculadoraTest" />
+        <item itemvalue="JUnit.CalculadoraTest.testSoma_returnDouble_whenValidInput" />
+        <item itemvalue="JUnit.CalculadoraTest.testDivide_returnZero_whenDivisorIqualsZero" />
+        <item itemvalue="JUnit.CalculadoraTest.testDivide_returnDouble_whenTwoPositiveNumbers" />
+        <item itemvalue="JUnit.CalculadoraTest.testSoma" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cd4abf0-67f2-4e25-a5dc-6e45a6a735d8" name="Changes" comment="" />
+      <created>1665407868067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665407868067</updated>
+      <workItem from="1665407869309" duration="3989000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/testes01$CalculadoraTest_testDivide_returnZero_whenDivisorIqualsZero.ic" NAME="CalculadoraTest.testDivide_returnZero_whenDivisorIqualsZero Coverage Results" MODIFIED="1665410340164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dh.meli.testes01.calculadora.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/testes01$CalculadoraTest_testDivide_returnDouble_whenTwoPositiveNumbers.ic" NAME="CalculadoraTest.testDivide_returnDouble_whenTwoPositiveNumbers Coverage Results" MODIFIED="1665410174743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dh.meli.testes01.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/testes01$CalculadoraTest.ic" NAME="CalculadoraTest Coverage Results" MODIFIED="1665410253356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dh.meli.testes01.calculadora.*</FILTER>
+    </SUITE>
+  </component>
+</project>
