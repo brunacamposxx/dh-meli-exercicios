@@ -1,6 +1,7 @@
 package com.dh.meli.movies.service;
 
 import com.dh.meli.movies.model.Actor;
+import com.dh.meli.movies.model.Movie;
 import com.dh.meli.movies.repository.ActorRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -31,6 +32,5 @@ public class ActorService implements IActorService{
         List<Actor> actorList = repo.findActorsByRatingGreaterThan(rating);
         return actorList;
     }
-
 
 }

@@ -1,4 +1,4 @@
-package com.dh.meli.movies.controller;
+/*package com.dh.meli.movies.controller;
 
 import com.dh.meli.movies.model.Actor;
 import com.dh.meli.movies.service.ActorService;
@@ -31,10 +31,15 @@ public class ActorController {
         return ResponseEntity.ok(actorList);
     }
 
+
+
     @GetMapping("/rating-greater-than/{rating}")
     public ResponseEntity<List<Actor>> getActorsByRatingGreaterThan(@PathVariable BigDecimal rating) {
         List<Actor> actorList = service.findActorsByRatingGreaterThan(rating);
         return ResponseEntity.ok(actorList);
     }
 
+
+
 }
+*/

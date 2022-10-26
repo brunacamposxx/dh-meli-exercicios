@@ -1,6 +1,7 @@
 package com.dh.meli.movies.service;
 
 import com.dh.meli.movies.model.Actor;
+import com.dh.meli.movies.model.Movie;
 
 import java.math.BigDecimal;
 import java.util.List;

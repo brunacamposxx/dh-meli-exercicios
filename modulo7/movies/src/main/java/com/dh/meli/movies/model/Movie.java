@@ -7,8 +7,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -41,12 +43,20 @@ public class Movie {
     @Column(name = "length", columnDefinition = "INT UNSIGNED")
     private Long length;
 
+    @Column(name = "rating", precision = 3, scale = 1)
+    private BigDecimal rating;
+
 //    @ManyToOne(fetch = FetchType.LAZY)
 //    @JoinColumn(name = "genre_id")
 //    private Genre genre;
 
+    /*
     @OneToMany(mappedBy = "movie", fetch = FetchType.LAZY)
+    @JsonIgnore
     @JsonIgnoreProperties("movie")
-    private List<Actor> actor;
+    private List<Actor> actor; */
 
+    @ManyToMany(mappedBy = "movies")
+    @JsonIgnoreProperties("movies")
+    private Set<Actor> actors;
 }

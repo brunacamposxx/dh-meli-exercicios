@@ -9,6 +9,8 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.Instant;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -38,9 +40,17 @@ public class Actor {
     @Column(name = "rating", precision = 3, scale = 1)
     private BigDecimal rating;
 
+    /*
     @ManyToOne
     @JoinColumn(name = "favorite_movie_id")
+    @JsonIgnore
     @JsonIgnoreProperties("actor")
     private Movie movie;
-
+*/
+    @ManyToMany
+    @JsonIgnoreProperties("actors")
+    @JoinTable(name = "actor_movie",
+            joinColumns = @JoinColumn(name = "actor_id"),
+            inverseJoinColumns = @JoinColumn(name = "movie_id"))
+    private Set<Movie> movies;
 }
