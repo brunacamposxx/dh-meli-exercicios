@@ -1,6 +1,6 @@
 package com.dh.meli.movies.controller;
 
-import com.dh.meli.movies.model.Actors;
+import com.dh.meli.movies.model.Actor;
 import com.dh.meli.movies.service.ActorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -20,25 +20,21 @@ public class ActorController {
     private ActorService service;
 
     @GetMapping
-    public ResponseEntity<List<Actors>> getAll(){
-        List<Actors> newActor = service.getAll();
+    public ResponseEntity<List<Actor>> getAll(){
+        List<Actor> newActor = service.getAll();
         return ResponseEntity.ok(newActor);
     }
 
     @GetMapping("/all")
-    public ResponseEntity<List<Actors>> getAllActors(){
-        List<Actors> newActor = service.getAllActors();
+    public ResponseEntity<List<Actor>> getAllActors(){
+        List<Actor> newActor = service.getAllActors();
         return ResponseEntity.ok(newActor);
     }
 
     @GetMapping("/rating-grater-than/{gratterThan}")
-    public ResponseEntity<List<Actors>> getActorsByRatingGraterThan(@PathVariable BigDecimal gratterThan) {
-        List<Actors> newActor = service.getActorsByRatingGraterThan(gratterThan);
+    public ResponseEntity<List<Actor>> getActorsByRatingGraterThan(@PathVariable BigDecimal gratterThan) {
+        List<Actor> newActor = service.getActorsByRatingGraterThan(gratterThan);
         return ResponseEntity.ok(newActor);
     }
-
-
-
-
 
 }
