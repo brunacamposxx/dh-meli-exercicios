@@ -5,6 +5,7 @@ import com.dh.meli.movies.repository.ActorRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @Service
@@ -20,4 +21,7 @@ public class ActorService {
         return repo.findAll();
     }
 
+    public List<Actors> getActorsByRatingGraterThan(BigDecimal gratterThan) {
+        return repo.findActorsByRatingGreaterThan(gratterThan);
+    }
 }
