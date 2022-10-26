@@ -1,9 +1,19 @@
 package com.dh.meli.movies.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.time.Instant;
+import java.util.List;
 
 @Entity
+@Getter
+@Setter
+@NoArgsConstructor
 @Table(name = "movies")
 public class Movie {
     @Id
@@ -12,9 +22,11 @@ public class Movie {
     private Long id;
 
     @Column(name = "created_at")
+    @JsonIgnore
     private Instant createdAt;
 
     @Column(name = "updated_at")
+    @JsonIgnore
     private Instant updatedAt;
 
     @Column(name = "title", nullable = false, length = 500)
@@ -28,78 +40,13 @@ public class Movie {
 
     @Column(name = "length", columnDefinition = "INT UNSIGNED")
     private Long length;
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "genre_id")
-    private Genre genre;
 
-    public Long getId() {
-        return id;
-    }
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "genre_id")
+//    private Genre genre;
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+    @OneToMany(mappedBy = "movie", fetch = FetchType.LAZY)
+    @JsonIgnoreProperties("movie")
+    private List<Actor> actor;
 
-    public Instant getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(Instant createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public Instant getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(Instant updatedAt) {
-        this.updatedAt = updatedAt;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public Long getAwards() {
-        return awards;
-    }
-
-    public void setAwards(Long awards) {
-        this.awards = awards;
-    }
-
-    public Instant getReleaseDate() {
-        return releaseDate;
-    }
-
-    public void setReleaseDate(Instant releaseDate) {
-        this.releaseDate = releaseDate;
-    }
-
-    public Long getLength() {
-        return length;
-    }
-
-    public void setLength(Long length) {
-        this.length = length;
-    }
-
-    public Genre getGenre() {
-        return genre;
-    }
-
-    public void setGenre(Genre genre) {
-        this.genre = genre;
-    }
-
-/*
-    TODO [JPA Buddy] create field to map the 'rating' column
-     Available actions: Define target Java type | Uncomment as is | Remove column mapping
-    @Column(name = "rating", columnDefinition = "DECIMAL(3, 1) UNSIGNED not null")
-    private Object rating;
-*/
 }

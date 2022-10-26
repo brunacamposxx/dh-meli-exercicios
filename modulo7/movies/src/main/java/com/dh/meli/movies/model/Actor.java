@@ -1,10 +1,19 @@
 package com.dh.meli.movies.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.Instant;
 
 @Entity
+@Getter
+@Setter
+@NoArgsConstructor
 @Table(name = "actors")
 public class Actor {
     @Id
@@ -13,9 +22,11 @@ public class Actor {
     private Long id;
 
     @Column(name = "created_at")
+    @JsonIgnore
     private Instant createdAt;
 
     @Column(name = "updated_at")
+    @JsonIgnore
     private Instant updatedAt;
 
     @Column(name = "first_name", nullable = false, length = 100)
@@ -27,52 +38,9 @@ public class Actor {
     @Column(name = "rating", precision = 3, scale = 1)
     private BigDecimal rating;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Instant getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(Instant createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public Instant getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(Instant updatedAt) {
-        this.updatedAt = updatedAt;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public BigDecimal getRating() {
-        return rating;
-    }
-
-    public void setRating(BigDecimal rating) {
-        this.rating = rating;
-    }
+    @ManyToOne
+    @JoinColumn(name = "favorite_movie_id")
+    @JsonIgnoreProperties("actor")
+    private Movie movie;
 
 }
