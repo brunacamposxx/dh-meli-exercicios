@@ -17,4 +17,6 @@ public interface MovieRepo extends CrudRepository<Movie, Long> {
             " inner join movies on movies.id = actor_movie.movie_id" +
             " where actors.rating > ?1", nativeQuery = true)
     List<Movie> findMoviesByActorsRatingGreaterThan (BigDecimal rating);
+
+    Movie findMovieByTitle (String title);
 }

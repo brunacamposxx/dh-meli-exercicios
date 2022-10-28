@@ -1,8 +1,14 @@
 package com.dh.meli.movies.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
+
 import javax.persistence.*;
 import java.time.Instant;
+import java.util.List;
 
+@Data
 @Entity
 @Table(name = "genres")
 public class Genre {
@@ -26,52 +32,7 @@ public class Genre {
     @Column(name = "active", nullable = false)
     private Boolean active = false;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Instant getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(Instant createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public Instant getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(Instant updatedAt) {
-        this.updatedAt = updatedAt;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Long getRanking() {
-        return ranking;
-    }
-
-    public void setRanking(Long ranking) {
-        this.ranking = ranking;
-    }
-
-    public Boolean getActive() {
-        return active;
-    }
-
-    public void setActive(Boolean active) {
-        this.active = active;
-    }
-
+    @OneToMany(mappedBy = "genre", fetch = FetchType.LAZY)
+    @JsonIgnoreProperties("genre")
+    private List<Movie> movies;
 }

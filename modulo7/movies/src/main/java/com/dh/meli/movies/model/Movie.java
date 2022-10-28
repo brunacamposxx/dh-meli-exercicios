@@ -46,9 +46,9 @@ public class Movie {
     @Column(name = "rating", precision = 3, scale = 1)
     private BigDecimal ratingMovie;
 
-//    @ManyToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name = "genre_id")
-//    private Genre genre;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "genre_id")
+    private Genre genre;
 
     /*
     @OneToMany(mappedBy = "movie", fetch = FetchType.LAZY)

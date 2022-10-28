@@ -4,4 +4,6 @@ import com.dh.meli.movies.model.Genre;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface GenreRepo extends JpaRepository<Genre, Long> {
+
+    Genre findGenreByName(String name);
 }
