@@ -44,7 +44,7 @@ public class Movie {
     private Long length;
 
     @Column(name = "rating", precision = 3, scale = 1)
-    private BigDecimal rating;
+    private BigDecimal ratingMovie;
 
 //    @ManyToOne(fetch = FetchType.LAZY)
 //    @JoinColumn(name = "genre_id")

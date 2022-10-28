@@ -12,9 +12,9 @@ public interface MovieRepo extends CrudRepository<Movie, Long> {
     //List<Movie> findMoviesByActorsR
      // List<Movie> findMoviesByActorsRatingGreaterThan (BigDecimal rating);
     //List<Movie> findMoviesByActorsRa
-    @Query(value = "SELECT * FROM movies_db.actors" +
-            " inner join movies_db.actor_movie on actors.id = movies_db.actor_movie.actor_id" +
-            " inner join movies_db.movies on movies.id = movies_db.actor_movie.movie_id" +
-            " where movies_db.actors.rating > ?1", nativeQuery = true)
+    @Query(value = "SELECT movies.id, movies.awards, movies.created_at, movies.length, movies.rating, movies.release_date, movies.title, movies.updated_at FROM actors" +
+            " inner join actor_movie on actors.id = actor_movie.actor_id" +
+            " inner join movies on movies.id = actor_movie.movie_id" +
+            " where actors.rating > ?1", nativeQuery = true)
     List<Movie> findMoviesByActorsRatingGreaterThan (BigDecimal rating);
 }

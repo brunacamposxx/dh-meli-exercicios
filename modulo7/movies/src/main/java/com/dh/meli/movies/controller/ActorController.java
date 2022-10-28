@@ -1,4 +1,4 @@
-/*package com.dh.meli.movies.controller;
+package com.dh.meli.movies.controller;
 
 import com.dh.meli.movies.model.Actor;
 import com.dh.meli.movies.service.ActorService;
@@ -42,4 +42,3 @@ public class ActorController {
 
 
 }
-*/

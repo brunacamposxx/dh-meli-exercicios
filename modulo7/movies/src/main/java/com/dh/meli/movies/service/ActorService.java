@@ -1,3 +1,4 @@
+
 package com.dh.meli.movies.service;
 
 import com.dh.meli.movies.model.Actor;
@@ -29,8 +30,9 @@ public class ActorService implements IActorService{
 
     @Override
     public List<Actor> findActorsByRatingGreaterThan(BigDecimal rating) {
-        List<Actor> actorList = repo.findActorsByRatingGreaterThan(rating);
+        List<Actor> actorList = repo.findActorsByRatingActorGreaterThan(rating);
         return actorList;
     }
 
 }
+

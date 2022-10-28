@@ -38,15 +38,15 @@ public class Actor {
     private String lastName;
 
     @Column(name = "rating", precision = 3, scale = 1)
-    private BigDecimal rating;
+    private BigDecimal ratingActor;
 
-    /*
+
     @ManyToOne
     @JoinColumn(name = "favorite_movie_id")
     @JsonIgnore
     @JsonIgnoreProperties("actor")
     private Movie movie;
-*/
+
     @ManyToMany
     @JsonIgnoreProperties("actors")
     @JoinTable(name = "actor_movie",

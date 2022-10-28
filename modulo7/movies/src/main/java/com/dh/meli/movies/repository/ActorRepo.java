@@ -1,3 +1,4 @@
+
 package com.dh.meli.movies.repository;
 
 import com.dh.meli.movies.model.Actor;
@@ -8,6 +9,6 @@ import java.util.List;
 
 public interface ActorRepo extends JpaRepository<Actor, Long> {
     List<Actor> findActorsByMovieNotNull ();
-    List<Actor> findActorsByRatingGreaterThan (BigDecimal rating);
+    List<Actor> findActorsByRatingActorGreaterThan (BigDecimal rating);
 //    List<Actor> findAll ();
 }
