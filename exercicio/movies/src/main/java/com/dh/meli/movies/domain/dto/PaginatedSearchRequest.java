@@ -1,4 +1,4 @@
-package com.dh.meli.movies.domain.DTO;
+package com.dh.meli.movies.domain.dto;
 
 import lombok.Data;
 
