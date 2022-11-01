@@ -1,5 +1,6 @@
 package com.dh.meli.movies.domain.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,6 +11,7 @@ import java.time.Instant;
 
 @Getter @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "actors")
 public class Actor {
@@ -32,5 +34,8 @@ public class Actor {
 
     @Column(name = "rating", precision = 3, scale = 1)
     private BigDecimal rating;
+
+    @Column(name = "favorite_movie_id")
+    private Integer favoriteMovieId;
 
 }
